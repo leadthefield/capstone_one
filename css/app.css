@@ -8,7 +8,36 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/* Navbar */
 
+button.navbar-toggler,
+button.navbar-toggler:focus {
+	display: flex;
+    border: none;
+    font-size: 2rem;
+	box-shadow:none;
+}
+ul.navbar-nav.mx-auto.mb-2.mb-lg-0 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* Font Awesome Shopping Cart */ 
+i.fa.fa-shopping-cart {
+    color: white;
+	margin-left: 15px;
+}
+/* Scroll Snap */
+.scroll-container {
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	height: 100vh;
+	scroll-snap-align: center;
+}
 
 /* Hides scrollbar */
 ::-webkit-scrollbar { 
@@ -18,6 +47,7 @@ body {
 /* Hero */
 .hero {
 	/* Font Color & Weight*/
+	
 	color: white;
 	width: 100vw;
 	height: 100vh;
@@ -27,6 +57,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	
 }
 
 
@@ -74,8 +105,36 @@ body {
 	background-color: white;
 	color:black ;
 }
+.index-section-two .btn { /*todo*/
+	display: block;
+	width: 200px;
 
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 3px solid white;
+	border-radius: 20px;
+}
 .index-section-three  {
 	background-color: black;
 	color: white;
 }
+.index-section-three .btn { /*todo*/
+	display: block;
+	width: 200px;
+
+	padding: 1em;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
