@@ -138,3 +138,63 @@ section {
 	border-radius: 20px;
 }
 
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product {
+	position: relative;
+	background: whitesmoke;
+	height: 350px;
+	width: 550px;
+	overflow: hidden;
+	display: flex;
+    margin-left: 20px;
+    border-radius: 50px;	
+}
+
+.product h1{
+	color: black;
+	left: -20px;
+	display: flex;
+	justify-content: upper-left;
+	align-items: center;
+}
+
+.product img {
+	position: absolute;
+	top: 15px;
+	right: -20px;
+	z-index: 0;
+	animation-delay: 0.5s;
+}
+
+.product p {
+	width: 280px;
+	font-size: 13px;
+	line-height: 1.4;
+	color: black;
+	margin: 20px 0;
+	left: -20px;
+}
+
+.product button {
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+}
+
+.product button a {
+	display: inline-flex;
+	overflow: hidden;
+	position: relative;
+	font-size: 11px;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+}
+
